@@ -26,6 +26,9 @@ a{
 .page {
   overflow-x: hidden;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;	
 }
 
 body{
