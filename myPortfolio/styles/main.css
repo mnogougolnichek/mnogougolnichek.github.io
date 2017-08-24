@@ -402,18 +402,21 @@ body{
 		background: #f1f1f1;
 
 	}
+        .email{
+    	    margin-top: 23px;
+        }	
 
-    .email a{
-    	font-size: 18px;
-    	color: #525252;
-    	display: block;
-    }
+        .email a{
+    	   font-size: 18px;
+    	   color: #525252;
+    	   display: block;
+        }
     
-    .social-media-icons{
-		font-size: 30px;
-		margin-top: 15px;
+        .social-media-icons{
+		    font-size: 30px;
+		    margin-top: 15px;
 		
-	}
+	 }
 
 }	
 
