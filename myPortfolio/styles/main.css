@@ -28,7 +28,7 @@ a{
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: stretch;	
+  align-items: stretch;
 }
 
 body{
@@ -400,23 +400,24 @@ body{
 		margin-top: 50px;
 		text-align: right;
 		background: #f1f1f1;
+	}
+
+    .email{
+    	margin-top: 23px;
+    }
+
+    .email a{
+    	font-size: 18px;
+    	color: #525252;
+    	display: block;
+    }
+    
+    .social-media-icons{
+		font-size: 30px;
+		margin-top: 15px;
+
 
 	}
-        .email{
-    	    margin-top: 23px;
-        }	
-
-        .email a{
-    	   font-size: 18px;
-    	   color: #525252;
-    	   display: block;
-        }
-    
-        .social-media-icons{
-		    font-size: 30px;
-		    margin-top: 15px;
-		
-	 }
 
 }	
 
