@@ -65,6 +65,7 @@ img{
     display: inline-block;
     vertical-align: top;
     position: absolute;
+    z-index: 5;
     top:0;
     right: 0;
 }
