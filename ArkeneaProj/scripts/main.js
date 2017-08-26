@@ -20,11 +20,12 @@ function setup() {
             event.preventDefault();
             var el = event.target;
             if (el === trigger) {
-                alert("66666");
+                
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
             } else if (!el.classList.contains('nav-link')) {
+                alert("66666");
                 menu.classList.remove('on');
                 headerContent.classList.remove('off');
                 headerForm.classList.remove('off');
