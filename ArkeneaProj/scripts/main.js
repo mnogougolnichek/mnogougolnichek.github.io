@@ -16,7 +16,7 @@ function setup() {
             headerContent = document.querySelector('.header-content-wrapper'),
             headerForm = document.querySelector('.header-form');
 
-       
+       document.addEventListener('click', function (event) {
             event.preventDefault();
             var el = event.target;
             if (el === trigger) {
@@ -28,7 +28,7 @@ function setup() {
                 headerContent.classList.remove('off');
                 headerForm.classList.remove('off');
             };
-       
+       }, false);
 
         var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
 
