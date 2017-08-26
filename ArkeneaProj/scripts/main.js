@@ -30,10 +30,10 @@ function setup() {
             };
         }, false);
 
-        var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
+//         var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
 
-        function isTouch() {
-            return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
-        };
+//         function isTouch() {
+//             return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+//         };
     })();
 };
