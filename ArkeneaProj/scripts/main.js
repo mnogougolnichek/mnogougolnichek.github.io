@@ -1,6 +1,6 @@
 "use strict"
 
-document.addEventListener("DOMContentLoaded", setup);
+// document.addEventListener("DOMContentLoaded", setup);
 
 function setup() {
     (function () {
