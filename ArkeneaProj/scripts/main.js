@@ -16,7 +16,7 @@ function setup() {
             headerContent = document.querySelector('.header-content-wrapper'),
             headerForm = document.querySelector('.header-form');
 
-        document.addEventListener('click', function (event) {
+       
             event.preventDefault();
             var el = event.target;
             if (el === trigger) {
@@ -28,12 +28,12 @@ function setup() {
                 headerContent.classList.remove('off');
                 headerForm.classList.remove('off');
             };
-        }, false);
+       
 
-//         var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
+        var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
 
-//         function isTouch() {
-//             return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
-//         };
+        function isTouch() {
+            return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
+        };
     })();
 };
