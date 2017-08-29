@@ -17,7 +17,7 @@ function setup() {
             headerForm = document.querySelector('.header-form');
 
        document.addEventListener('click', function (event) {
-            event.preventDefault();
+            
             var el = event.target;
             if (el === trigger) {
                 
