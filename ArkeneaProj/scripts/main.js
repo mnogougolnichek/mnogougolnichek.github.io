@@ -24,7 +24,7 @@ function setup() {
                 menu.classList.toggle('on');
 
             } 
-            };
+           
         }, false);
 
 
