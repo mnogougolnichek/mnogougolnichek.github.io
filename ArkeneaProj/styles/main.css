@@ -62,7 +62,7 @@ img{
 
 .menu-icon{ 
     font-size: 30px;
-    display: inline-block;
+    display: block;
     vertical-align: top;
     position: absolute;
     z-index: 5;
