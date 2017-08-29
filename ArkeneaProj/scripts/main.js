@@ -24,7 +24,7 @@ function setup() {
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
-            } else if (!el.classList.contains('nav-link')) {
+            }  if (!el.classList.contains('nav-link')) {
                 alert("66666");
                 menu.classList.remove('on');
                 headerContent.classList.remove('off');
