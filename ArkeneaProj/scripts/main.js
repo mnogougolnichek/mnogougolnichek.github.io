@@ -20,7 +20,7 @@ function setup() {
             event.preventDefault();
             var el = event.target;
             if (el === trigger) {
-                alert("66666");
+                
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
