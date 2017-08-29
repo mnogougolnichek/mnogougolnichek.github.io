@@ -60,12 +60,11 @@ img{
     margin-top: 5px;
 }
 
-.menu-icon{ 
-    font-size: 30px;
+.menu-icon-wrapper{
+        font-size: 30px;
     display: block;
     vertical-align: top;
     position: absolute;
-    z-index: 5;
     top:0;
     right: 0;
 }
