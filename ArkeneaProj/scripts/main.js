@@ -17,14 +17,14 @@ function setup() {
             headerForm = document.querySelector('.header-form');
 
        document.addEventListener('click', function (event) {
-            
+            event.preventDefault();
             var el = event.target;
             if (el === trigger) {
                 
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
-            } else if (!el.classList.contains('nav-link')) {
+            } else if (el != menu && el.offsetParent != menu) {
                 
                 menu.classList.remove('on');
                 headerContent.classList.remove('off');
