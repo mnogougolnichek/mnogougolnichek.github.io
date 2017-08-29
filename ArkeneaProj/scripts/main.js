@@ -1,7 +1,5 @@
 "use strict"
 
-document.addEventListener("DOMContentLoaded", setup);
-
 
         var trigger = document.querySelector('.trigger'),
             menu = document.querySelector('.nav-list'),
