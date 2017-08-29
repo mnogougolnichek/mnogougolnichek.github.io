@@ -21,7 +21,7 @@ function setup() {
             event.preventDefault();
             var el = event.target;
             if (el === trigger) {
-                alert('ggg');
+                
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
@@ -29,6 +29,7 @@ function setup() {
                 menu.classList.remove('on');
                 headerContent.classList.remove('off');
                 headerForm.classList.remove('off');
+                alert('ggg');
             };
         }, false);
 
