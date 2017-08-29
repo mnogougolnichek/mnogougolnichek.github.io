@@ -97,7 +97,7 @@ img{
 
 .on{
     
-    
+    position: absolute;
     line-height: 3;
     opacity: 1;
 }
