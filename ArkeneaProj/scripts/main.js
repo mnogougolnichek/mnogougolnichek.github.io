@@ -11,7 +11,7 @@ function setup() {
             autoplayStopOnLast: false
         });
 
-        var trigger = document.querySelector('.trigger'),
+        var trigger = document.querySelector('.menu-icon-wrapper'),
             menu = document.querySelector('.nav-list'),
             headerContent = document.querySelector('.header-content-wrapper'),
             headerForm = document.querySelector('.header-form');
