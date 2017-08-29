@@ -13,7 +13,7 @@ function setup() {
         });
 
         var trigger = document.querySelector('.trigger'),
-            menu = document.querySelector('.nav-list'),
+            menu = document.querySelector('.nav-list');
 
 
         document.addEventListener('click', function (event) {
