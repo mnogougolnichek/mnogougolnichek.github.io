@@ -30,7 +30,7 @@ function setup() {
                 headerContent.classList.remove('off');
                 headerForm.classList.remove('off');
             };
-       }
+       };
 
         var deviceClass = isTouch() === true && document.querySelector("body").classList.add("touch");
 
