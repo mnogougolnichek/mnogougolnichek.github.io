@@ -24,7 +24,7 @@ function setup() {
                 menu.classList.toggle('on');
                 headerContent.classList.toggle('off');
                 headerForm.classList.toggle('off');
-            } ekse if (!el.classList.contains('nav-link')) {
+            } else if (!el.classList.contains('nav-link')) {
                 
                 menu.classList.remove('on');
                 headerContent.classList.remove('off');
