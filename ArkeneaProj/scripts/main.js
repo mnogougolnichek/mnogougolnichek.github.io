@@ -2,16 +2,9 @@
 
 
 
-document.addEventListener("DOMContentLoaded", setup);
 
-function setup() {
-    (function () {
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-            autoplay: true,
-            autoplayStopOnLast: false
-        });
+
+
 
         var trigger = document.querySelector('.trigger'),
             menu = document.querySelector('.nav-list'),
@@ -41,5 +34,4 @@ function setup() {
         function isTouch() {
             return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
         };
-    })();
-};
+
