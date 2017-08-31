@@ -3,6 +3,7 @@
 }
 
 .tr{
+	display: inline;
 	height: 200px;
 	width: 200px;
 	background: #000000;
