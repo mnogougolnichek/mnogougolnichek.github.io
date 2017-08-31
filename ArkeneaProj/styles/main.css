@@ -61,12 +61,10 @@ img{
 }
 
 .menu-icon-wrapper{
-    font-size: 30px;
     display: block;
-    vertical-align: top;
-    position: absolute;
-    top:0;
-    right: 0;
+    height:100px;
+    width:100px;
+    background:#ffffff;
 }
 
 
