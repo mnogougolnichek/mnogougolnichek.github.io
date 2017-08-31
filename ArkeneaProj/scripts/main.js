@@ -1,7 +1,7 @@
 "use strict"
 
 
-document.addEventListener("DOMContentLoaded", setup);
+document.addEventListener('DOMContentLoaded', function () {
 
 function setup() {
     (function () {
@@ -37,4 +37,4 @@ function setup() {
             return 'ontouchstart' in window || navigator.MaxTouchPoints > 0 || navigator.msMaxTouchPoints > 0;
         };
     })();
-};
+}, false);
