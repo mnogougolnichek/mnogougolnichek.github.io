@@ -19,7 +19,7 @@ function setup() {
         document.addEventListener('click', function (event) {
             event.preventDefault();
             var el = event.target;
-            if (el === trigger) {
+            if (el == trigger) {
                 alert("333");
                 menu.classList.toggle('on');
 
