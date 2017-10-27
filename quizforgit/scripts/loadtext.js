@@ -14,7 +14,7 @@ function Dataloader(){
     this.getData = callback =>{
         callback = callback|| new Function;
         const xhr = new XMLHttpRequest();
-        xhr.open('GET',document.location.href+"https://mnogougolnichek.github.io/quizforgit/data/data.json",true);
+        xhr.open('GET',document.location.href+"/data/data.json",true);
         xhr.send();
         xhr.onload = () => callback(JSON.parse(xhr.responseText),self.count);
     };
