@@ -79,21 +79,6 @@ function initMap() {
   });
 }
 
-// setInterval(function () {
-//   var dayX = new Date('September 01, 2017 23:15:30');
-//   var dayNow = new Date();
-//
-//   var diff = dayX.getTime() - dayNow.getTime(),
-//       sec = Math.floor(diff / 1000 % 60),
-//       min = Math.floor(diff / 1000 / 60 % 60),
-//       hour = Math.floor(diff / (1000 * 60 * 60)),
-//       day = Math.floor(diff / (1000 * 60 * 60 * 24));
-//   document.getElementById("timer-sec").innerHTML = sec;
-//   document.getElementById("timer-min").innerHTML = min;
-//   document.getElementById("timer-hour").innerHTML = hour;
-//   document.getElementById("timer-day").innerHTML = day;
-// }, 1000);
-
 setInterval(function () {
     var dayX = new Date('January 30, 2018 23:15:30');
     var dayNow = new Date();
