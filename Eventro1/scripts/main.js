@@ -99,6 +99,6 @@ setInterval(function () {
         min = 0;
         hour = 0;
         day = 0;
-    };
+    }
 
 }, 1000);
