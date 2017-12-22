@@ -96,13 +96,17 @@ h1{
   border: none;
   right: 10px;
   top: 17px;
-  opacity: 0;
 }
 
-.todo-item-wrapper:hover .delete-todo-btn{
-  opacity: 1;
+@media screen and (min-width: 1366px){
+
+  .delete-todo-btn{
+    opacity: 0;
+  }
+
+  .todo-item-wrapper:hover .delete-todo-btn{
+    opacity: 1;
+  }
+
 }
-
-
-
 
