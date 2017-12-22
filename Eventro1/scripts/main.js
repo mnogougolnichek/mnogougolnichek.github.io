@@ -65,14 +65,16 @@
 //     }
 //
 // }, 1000);
-
-// Old js for IE
+//
+// // Old js for IE
 
 "use strict";
 
 var trigger = document.querySelector('.trigger'),
     menu = document.querySelector('.nav-list'),
-    headerContent = document.querySelector('.header-box');
+    headerContent = document.querySelector('.header-box'),
+    widget = document.querySelector('.container-timer'),
+    header = document.querySelector('.header').offsetHeight;
 
 document.addEventListener('click', function (event) {
   event.preventDefault();
@@ -85,6 +87,16 @@ document.addEventListener('click', function (event) {
     headerContent.classList.remove('off');
   }
 }, false);
+
+window.onscroll = () => {
+    let offset = window.pageYOffset;
+    if (offset > header) {
+        widget.classList.add("container-timer-on");
+    }
+    if (offset < header) {
+        widget.classList.remove("container-timer-on");
+    }
+};
 
 function initMap() {
   var uluru = { lat: 23.777176, lng: 90.399452 };
