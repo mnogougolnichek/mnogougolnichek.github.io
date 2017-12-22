@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vuetry</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header>
+        <div class="container">
+          <div class="row">
+              <!-- Divs with column-classes here -->
+          </div>
+        </div>
+    </header>
+
+    <main>
+      <div class="todo-container">
+          <h1>My Vue.js to-do app</h1>
+            <div id="app-6">
+                <div class="app-wrapper">
+                    <input v-model="message" @keyup.enter="addTodo" class="todo-input" placeholder="Add Todo">
+                    <ol v-show="todos">
+                        <li v-for="todo in todos"
+                            :key="todo.id"
+                            :class="{ completed: todo.completed }"
+                            class="list-item">
+                            <div class="todo-item-wrapper">
+                                <input class="done-todo-btn"
+                                       v-model="todo.completed"
+                                       type="checkbox">
+                                <label class="todo-label">{{todo.text}}</label>
+                                <button @click="deleteTodo(todo)"
+                                        class="delete-todo-btn"
+                                        >
+                                </button>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+            <!-- Divs with column-classes here -->
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+  <script src="scripts/vue.js"></script>
+  <script src="scripts/main.js"></script>
+  
+</body>
+</html>
