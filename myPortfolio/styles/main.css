@@ -374,6 +374,7 @@ body{
 	@keyframes slideUp {
 		0% {
 			transform: translateY(10%);
+			opacity: 0;
 		}
 	}
 
@@ -387,6 +388,7 @@ body{
 		position: absolute;
 		background: rgba(0, 0, 0, 0.79);
 		z-index: 2;
+		opacity: 1;
 	}
 
 	.card-hide{
