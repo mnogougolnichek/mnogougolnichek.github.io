@@ -371,6 +371,17 @@ body{
     	visibility: visible !important;
 	}
 
+	@keyframes slideUp {
+		0% {
+			transform: translateY(10%);
+		}
+	}
+
+	@-webkit-keyframes slideUp {
+		0% {
+			-webkit-transform: translateY(10%);
+		}
+	}
 
 	.shadow:hover{
 		position: absolute;
