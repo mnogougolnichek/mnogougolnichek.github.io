@@ -51,6 +51,7 @@ body{
 	position: relative;
 	display: block;
 	margin: 15px auto auto;
+	opacity: 1;
 }
 
 .h1{
@@ -68,13 +69,14 @@ body{
  
 @keyframes slideRight {
     0% {
-        transform: translateX(-150%);
+        transform: translateX(-10%);
+		opacity: 0;
     }  
 }
  
 @-webkit-keyframes slideRight {
     0% {
-        -webkit-transform: translateX(-150%);
+        -webkit-transform: translateX(-10%);
     }
 
 }
@@ -83,6 +85,7 @@ body{
 	margin:5px auto 10px;
 	font-size: 25px;
 	color: #cecece;
+	opacity: 1;
 }
 
 .header-text{
@@ -100,13 +103,14 @@ body{
  
 @keyframes slideLeft {
     0% {
-        transform: translateX(150%);
+        transform: translateX(10%);
+		opacity: 0;
     }
 }
  
 @-webkit-keyframes slideLeft {
     0% {
-        -webkit-transform: translateX(150%);
+        -webkit-transform: translateX(10%);
     }
 }
 
