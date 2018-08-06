@@ -1,1 +1,0 @@
-<div id="page-container" class="sidebar-o sidebar-inverse side-scroll side-trans-enabled">
