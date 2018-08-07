@@ -80162,7 +80162,7 @@ jQuery(function () {
 
 jQuery(function () {
     function follow() {
-        document.location.href = "\"https://mnogougolnichek.github.io/xadmin/order_edit.html";
+        document.location.href = "/order_edit.html";
     }
 
     $('.js-dataTable-full').DataTable();
