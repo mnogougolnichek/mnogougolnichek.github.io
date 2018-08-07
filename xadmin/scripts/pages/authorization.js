@@ -36,7 +36,7 @@ let v = $("#authorization").validate({
             rightLogin = "admin",
             rightPassword = "12345678";
         if(login === rightLogin && password === rightPassword){
-            document.location.href = "http://admin-markup/users";
+            document.location.href = "https://mnogougolnichek.github.io/xadmin/users.html";
         }else{
             v.showErrors({
                 login: 'Не верный пароли или логин',
