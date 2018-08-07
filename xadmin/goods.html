@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="sHsK7YxfYrLKmzMjufC0oKm8psWjteARBb3HM9L3">
+    <title>Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<div id="page-container" class="sidebar-o sidebar-inverse side-scroll side-trans-enabled"><!-- Sidebar -->
+    <!--
+        Helper classes
+
+        Adding .sidebar-mini-hide to an element will make it invisible (opacity: 0) when the sidebar is in mini mode
+        Adding .sidebar-mini-show to an element will make it visible (opacity: 1) when the sidebar is in mini mode
+            If you would like to disable the transition, just add the .sidebar-mini-notrans along with one of the previous 2 classes
+
+        Adding .sidebar-mini-hidden to an element will hide it when the sidebar is in mini mode
+        Adding .sidebar-mini-visible to an element will show it only when the sidebar is in mini mode
+            - use .sidebar-mini-visible-b if you would like to be a block when visible (display: block)
+    -->
+    <nav id="sidebar">
+        <!-- Sidebar Scroll Container -->
+        <div id="">
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+                <!-- Side Header -->
+                <div class="content-header content-header-fullrow px-15">
+                    <!-- Mini Mode -->
+                    <div class="content-header-section sidebar-mini-visible-b">
+                        <!-- Logo -->
+                        <span class="content-header-item font-w700 font-size-xl float-left animated fadeIn">
+                        <span class="text-dual-primary-dark">c</span><span class="text-primary">b</span>
+                    </span>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Mini Mode -->
+
+                    <!-- Normal Mode -->
+                    <div class="content-header-section text-center align-parent sidebar-mini-hidden">
+                        <!-- Close Sidebar, Visible only on mobile screens -->
+                        <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                        <button type="button" class="btn btn-circle btn-dual-secondary d-lg-none align-v-r" data-toggle="layout" data-action="sidebar_close">
+                            <i class="fa fa-times text-danger"></i>
+                        </button>
+                        <!-- END Close Sidebar -->
+
+                        <!-- Logo -->
+                        <div class="content-header-item">
+                            <a class="font-w700" href="" style="text-decoration: none">
+                                <i class="fa fa-rocket font-size-xl"></i>
+                                <span class="font-size-xl text-dual-primary-dark">Company</span>
+                            </a>
+                        </div>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Normal Mode -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side User -->
+                <div class="content-side content-side-full content-side-user px-10 align-parent">
+                    <!-- Visible only in mini mode -->
+                    <div class="sidebar-mini-visible-b align-v animated fadeIn">
+                        <img class="img-avatar img-avatar32" src="" alt="">
+                    </div>
+                    <!-- END Visible only in mini mode -->
+
+                    <!-- Visible only in normal mode -->
+                    <div class="sidebar-mini-hidden-b text-center">
+                        <a class="img-link" href="#">
+                            <img class="img-avatar" src="images/admin3.jpg" alt="">
+                        </a>
+                        <ul class="list-inline mt-10">
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark font-size-xs font-w600" href="" style="text-decoration: none">Admin</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark" href="index.html" style="text-decoration: none">
+                                    <i class="si si-logout"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END Visible only in normal mode -->
+                </div>
+                <!-- END Side User -->
+
+                <!-- Side Navigation -->
+                <div class="content-side content-side-full">
+                    <ul class="nav-main">
+                        <li>
+                            <a href="users.html">
+                                <i class="si si-user"></i>
+                                Users
+                            </a>
+                        </li>
+                        <li class="open">
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="">
+                                <i class="fa fa-list-ul"></i>
+                                Catalog
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="category.html">Category</a>
+                                </li>
+                                <li>
+                                    <a href="filters.html">Filters</a>
+                                </li>
+                                <li>
+                                    <a class="active" href="goods.html">Goods</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="orders.html">
+                                <i class="fa fa-th-list"></i>
+                                Orders
+                            </a>
+                        </li>
+                        <li>
+                            <a href="feedback_request.html">
+                                <i class="fa fa-comments"></i>
+                                Feedback
+                            </a>
+                        </li>
+                        <li>
+                            <a href="settings.html">
+                                <i class="fa fa-cogs"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Side Navigation -->
+            </div>
+            <!-- Sidebar Content -->
+        </div>
+        <!-- END Sidebar Scroll Container -->
+    </nav>
+    <!-- END Sidebar -->
+    <!-- Header -->
+    <header id="page-header">
+        <!-- Header Content -->
+        <div class="content-header">
+            <!-- Left Section -->
+            <div class="content-header-section">
+                <!-- Toggle Sidebar -->
+                <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                    <i class="fa fa-navicon"></i>
+                </button>
+                <!-- END Toggle Sidebar -->
+            </div>
+            <!-- END Left Section -->
+        </div>
+        <!-- END Header Content -->
+    </header>
+    <!-- END Header -->
+    <main id="main-container">
+        <!-- Page Content -->
+        <main>
+            <div class="content">
+                <h2 class="content-heading">Товары</h2>
+                <div class="block">
+                    <div class="block-header block-header-default justify-content-end">
+                        <div class="col-auto">
+                            <button type="button" id="add-btn" class="btn btn-sm btn-success mr-2">
+                                <i class="fa fa-plus mr-2"></i>
+                                Добавить
+                            </button>
+                            <button type="button" class="btn btn-sm btn-warning mr-2" data-toggle="modal">
+                                <i class="fa fa-pencil mr-2"></i>
+                                Редактировать
+                            </button>
+                            <button type="button" class="btn btn-sm btn-danger js-delItem" data-toggle="modal" data-target="#del-modal">
+                                <i class="fa fa-trash mr-2"></i>
+                                Удалить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block-content block-content-full">
+                        <div class="table-responsive">
+                            <table class="table table-vcenter js-dataTable-full">
+                                <thead>
+                                <tr>
+                                    <th class="text-center" style="width: 1%;">Артикул</th>
+                                    <th>Наименование</th>
+                                    <th style="width: 60%;">Описание</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="text-center">12012018</td>
+                                    <td class="font-w600">Вино Casa Verde Rezerva Syrah</td>
+                                    <td>
+                                        Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">12012018</td>
+                                    <td class="font-w600">Вино Casa Verde Rezerva Syrah</td>
+                                    <td>
+                                        Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">12012018</td>
+                                    <td class="font-w600">Вино Casa Verde Rezerva Syrah</td>
+                                    <td>
+                                        Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">12012018</td>
+                                    <td class="font-w600">Вино Casa Verde Rezerva Syrah</td>
+                                    <td>
+                                        Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- END Page Content -->
+    </main>
+</div>        <!-- Fade In Modal -->
+<div id="del-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-fadein" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <form id="formItem" action="" method="post">
+                <input type="hidden" name="id">
+                <div class="block block-themed block-transparent mb-0">
+                    <div class="block-header bg-gd-emerald">
+                        <h3 class="block-title">Удаление товара</h3>
+                        <div class="block-options">
+                            <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                <i class="si si-close"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <p>
+                            Удаление данного товара невозможно. За ним закреплены несколько вариаций.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-alt-success" data-dismiss="modal" aria-label="Close">
+                            ok
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- END Fade In Modal -->
+
+<script  src="scripts/app.js"></script>
+<script src="scripts/pages/goods.js"></script>
+</body>
+</html>

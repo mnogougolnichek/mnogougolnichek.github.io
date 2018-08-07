@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="sHsK7YxfYrLKmzMjufC0oKm8psWjteARBb3HM9L3">
+    <title>Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/core.css">
+
+</head>
+<body>
+<div id="page-container" class="sidebar-o sidebar-inverse side-scroll side-trans-enabled"><!-- Sidebar -->
+    <!--
+        Helper classes
+
+        Adding .sidebar-mini-hide to an element will make it invisible (opacity: 0) when the sidebar is in mini mode
+        Adding .sidebar-mini-show to an element will make it visible (opacity: 1) when the sidebar is in mini mode
+            If you would like to disable the transition, just add the .sidebar-mini-notrans along with one of the previous 2 classes
+
+        Adding .sidebar-mini-hidden to an element will hide it when the sidebar is in mini mode
+        Adding .sidebar-mini-visible to an element will show it only when the sidebar is in mini mode
+            - use .sidebar-mini-visible-b if you would like to be a block when visible (display: block)
+    -->
+    <nav id="sidebar">
+        <!-- Sidebar Scroll Container -->
+        <div id="">
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+                <!-- Side Header -->
+                <div class="content-header content-header-fullrow px-15">
+                    <!-- Mini Mode -->
+                    <div class="content-header-section sidebar-mini-visible-b">
+                        <!-- Logo -->
+                        <span class="content-header-item font-w700 font-size-xl float-left animated fadeIn">
+                        <span class="text-dual-primary-dark">c</span><span class="text-primary">b</span>
+                    </span>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Mini Mode -->
+
+                    <!-- Normal Mode -->
+                    <div class="content-header-section text-center align-parent sidebar-mini-hidden">
+                        <!-- Close Sidebar, Visible only on mobile screens -->
+                        <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                        <button type="button" class="btn btn-circle btn-dual-secondary d-lg-none align-v-r" data-toggle="layout" data-action="sidebar_close">
+                            <i class="fa fa-times text-danger"></i>
+                        </button>
+                        <!-- END Close Sidebar -->
+
+                        <!-- Logo -->
+                        <div class="content-header-item">
+                            <a class="font-w700" href="" style="text-decoration: none">
+                                <i class="fa fa-rocket font-size-xl"></i>
+                                <span class="font-size-xl text-dual-primary-dark">Company</span>
+                            </a>
+                        </div>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Normal Mode -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side User -->
+                <div class="content-side content-side-full content-side-user px-10 align-parent">
+                    <!-- Visible only in mini mode -->
+                    <div class="sidebar-mini-visible-b align-v animated fadeIn">
+                        <img class="img-avatar img-avatar32" src="" alt="">
+                    </div>
+                    <!-- END Visible only in mini mode -->
+
+                    <!-- Visible only in normal mode -->
+                    <div class="sidebar-mini-hidden-b text-center">
+                        <a class="img-link" href="#">
+                            <img class="img-avatar" src="images/admin3.jpg" alt="">
+                        </a>
+                        <ul class="list-inline mt-10">
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark font-size-xs font-w600" href="" style="text-decoration: none">Admin</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark" href="index.html" style="text-decoration: none">
+                                    <i class="si si-logout"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END Visible only in normal mode -->
+                </div>
+                <!-- END Side User -->
+
+                <!-- Side Navigation -->
+                <div class="content-side content-side-full">
+                    <ul class="nav-main">
+                        <li>
+                            <a class="active" href="users.html">
+                                <i class="si si-user"></i>
+                                Users
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="">
+                                <i class="fa fa-list-ul"></i>
+                                Catalog
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="category.html">Category</a>
+                                </li>
+                                <li>
+                                    <a href="filters.html">Filters</a>
+                                </li>
+                                <li>
+                                    <a href="goods.html">Goods</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="orders.html">
+                                <i class="fa fa-th-list"></i>
+                                Orders
+                            </a>
+                        </li>
+                        <li>
+                            <a href="feedback_request.html">
+                                <i class="fa fa-comments"></i>
+                                Feedback
+                            </a>
+                        </li>
+                        <li>
+                            <a href="settings.html">
+                                <i class="fa fa-cogs"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Side Navigation -->
+            </div>
+            <!-- Sidebar Content -->
+        </div>
+        <!-- END Sidebar Scroll Container -->
+    </nav>
+    <!-- END Sidebar -->
+    <!-- Header -->
+    <header id="page-header">
+        <!-- Header Content -->
+        <div class="content-header">
+            <!-- Left Section -->
+            <div class="content-header-section">
+                <!-- Toggle Sidebar -->
+                <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                    <i class="fa fa-navicon"></i>
+                </button>
+                <!-- END Toggle Sidebar -->
+            </div>
+            <!-- END Left Section -->
+        </div>
+        <!-- END Header Content -->
+    </header>
+    <!-- END Header -->
+    <main id="main-container">
+
+        <!-- Page Content -->
+        <div class="content">
+
+            <!-- Dynamic Table -->
+            <div class="block">
+                <div class="block-header block-header-default d-block d-md-flex">
+                    <h3 class="block-title pr-3">Пользователи <small>(1)</small></h3>
+                    <div class="block-options form-inline pl-0">
+                        <button type="button" class="btn btn-sm btn-success mr-2" data-toggle="modal" data-target="#modalItem"><i class="fa fa-user-plus mr-2"></i>Добавить</button>
+                        <button type="button" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#modalItem" data-edit="true" disabled><i class="fa fa-pencil mr-2"></i>Редактировать</button>
+                    </div>
+                </div>
+                <div class="block-content block-content-full">
+                    <!-- DataTables init on table by adding .js-dataTable-full class -->
+                    <div class="table-responsive">
+                        <table class="table table-vcenter js-dataTable-full">
+                            <thead>
+                            <tr>
+                                <th class="text-center" style="width: 1%;">№</th>
+                                <th>Имя</th>
+                                <th>Эл. почта</th>
+                                <th>Телефон 1</th>
+                                <th>Телефон 2</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="font-w600">Elon Musk</td>
+                                <td>elon@musk.com</td>
+                                <td>+380504556532</td>
+                                <td>+380637768636</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="font-w600">Elon Musk</td>
+                                <td>elon@musk.com</td>
+                                <td>+380504556532</td>
+                                <td>+380637768636</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="font-w600">Elon Musk</td>
+                                <td>elon@musk.com</td>
+                                <td>+380504556532</td>
+                                <td>+380637768636</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="font-w600">Elon Musk</td>
+                                <td>elon@musk.com</td>
+                                <td>+380504556532</td>
+                                <td>+380637768636</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- END Dynamic Table -->
+        </div>
+        <!-- END Page Content -->
+    </main>
+</div>        <!-- Fade In Modal -->
+<div id="modalItem" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-fadein" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="formItem" action="" method="post">
+                <input type="hidden" name="id">
+                <div class="block block-themed block-transparent mb-0">
+                    <div class="block-header bg-gd-emerald">
+                        <h3 class="block-title">Добавить пользователя</h3>
+                        <div class="block-options">
+                            <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                <i class="si si-close"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <div class="form-group row">
+                            <label for="addItemName" class="col-12">Имя <span class="text-danger">*</span></label>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="addItemName" name="user_name">
+                            </div>
+                        </div>
+                        <div class="row gutters-tiny">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="addItemPhone-1" class="col-12">Телефон <span class="text-danger">*</span></label>
+                                    <div class="col-12">
+                                        <input type="tel" class="js-masked-phone form-control" id="addItemPhone-1" name="user_phone_first">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="addItemPhone-2" class="col-12">Доп. телефон</label>
+                                    <div class="col-12">
+                                        <input type="tel" class="js-masked-phone form-control" id="addItemPhone-2" name="user_phone_second">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gutters-tiny">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <label for="addItemEmail" class="col-12">Эл. почта <span class="text-danger">*</span></label>
+                                    <div class="col-12">
+                                        <input type="email" class="form-control" id="addItemEmail" name="email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="addItemPass" class="col-12">Пароль <span class="text-danger">*</span></label>
+                                    <div class="col-12">
+                                        <input type="password" class="form-control" id="addItemPass" name="password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="addItemPass2" class="col-12">Повторить пароль <span class="text-danger">*</span></label>
+                                    <div class="col-12">
+                                        <input type="password" class="form-control" id="addItemPass2" name="repassword">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-alt-secondary" data-dismiss="modal">Отмена</button>
+                        <button type="button" class="btn btn-alt-success">
+                            <i class="fa fa-check"></i> Добавить
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- END Fade In Modal -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/jquery-scrollLock.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.4.0/jquery.appear.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+<script src="scripts/codebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+<script src="scripts/pages/users.js"></script>
+</body>
+</html>

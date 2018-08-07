@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="sHsK7YxfYrLKmzMjufC0oKm8psWjteARBb3HM9L3">
+    <title>Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<div id="page-container" class="sidebar-o sidebar-inverse side-scroll side-trans-enabled"><!-- Sidebar -->
+    <!--
+        Helper classes
+
+        Adding .sidebar-mini-hide to an element will make it invisible (opacity: 0) when the sidebar is in mini mode
+        Adding .sidebar-mini-show to an element will make it visible (opacity: 1) when the sidebar is in mini mode
+            If you would like to disable the transition, just add the .sidebar-mini-notrans along with one of the previous 2 classes
+
+        Adding .sidebar-mini-hidden to an element will hide it when the sidebar is in mini mode
+        Adding .sidebar-mini-visible to an element will show it only when the sidebar is in mini mode
+            - use .sidebar-mini-visible-b if you would like to be a block when visible (display: block)
+    -->
+    <nav id="sidebar">
+        <!-- Sidebar Scroll Container -->
+        <div id="">
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+                <!-- Side Header -->
+                <div class="content-header content-header-fullrow px-15">
+                    <!-- Mini Mode -->
+                    <div class="content-header-section sidebar-mini-visible-b">
+                        <!-- Logo -->
+                        <span class="content-header-item font-w700 font-size-xl float-left animated fadeIn">
+                        <span class="text-dual-primary-dark">c</span><span class="text-primary">b</span>
+                    </span>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Mini Mode -->
+
+                    <!-- Normal Mode -->
+                    <div class="content-header-section text-center align-parent sidebar-mini-hidden">
+                        <!-- Close Sidebar, Visible only on mobile screens -->
+                        <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                        <button type="button" class="btn btn-circle btn-dual-secondary d-lg-none align-v-r" data-toggle="layout" data-action="sidebar_close">
+                            <i class="fa fa-times text-danger"></i>
+                        </button>
+                        <!-- END Close Sidebar -->
+
+                        <!-- Logo -->
+                        <div class="content-header-item">
+                            <a class="font-w700" href="" style="text-decoration: none">
+                                <i class="fa fa-rocket font-size-xl"></i>
+                                <span class="font-size-xl text-dual-primary-dark">Company</span>
+                            </a>
+                        </div>
+                        <!-- END Logo -->
+                    </div>
+                    <!-- END Normal Mode -->
+                </div>
+                <!-- END Side Header -->
+
+                <!-- Side User -->
+                <div class="content-side content-side-full content-side-user px-10 align-parent">
+                    <!-- Visible only in mini mode -->
+                    <div class="sidebar-mini-visible-b align-v animated fadeIn">
+                        <img class="img-avatar img-avatar32" src="" alt="">
+                    </div>
+                    <!-- END Visible only in mini mode -->
+
+                    <!-- Visible only in normal mode -->
+                    <div class="sidebar-mini-hidden-b text-center">
+                        <a class="img-link" href="#">
+                            <img class="img-avatar" src="images/admin3.jpg" alt="">
+                        </a>
+                        <ul class="list-inline mt-10">
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark font-size-xs font-w600" href="" style="text-decoration: none">Admin</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-dual-primary-dark" href="index.html" style="text-decoration: none">
+                                    <i class="si si-logout"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END Visible only in normal mode -->
+                </div>
+                <!-- END Side User -->
+
+                <!-- Side Navigation -->
+                <div class="content-side content-side-full">
+                    <ul class="nav-main">
+                        <li>
+                            <a href="users.html">
+                                <i class="si si-user"></i>
+                                Users
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-submenu" data-toggle="nav-submenu" href="">
+                                <i class="fa fa-list-ul"></i>
+                                Catalog
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="category.html">Category</a>
+                                </li>
+                                <li>
+                                    <a href="filters.html">Filters</a>
+                                </li>
+                                <li>
+                                    <a href="goods.html">Goods</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="orders.html">
+                                <i class="fa fa-th-list"></i>
+                                Orders
+                            </a>
+                        </li>
+                        <li>
+                            <a href="feedback_request.html">
+                                <i class="fa fa-comments"></i>
+                                Feedback
+                            </a>
+                        </li>
+                        <li>
+                            <a class="active" href="settings.html">
+                                <i class="fa fa-cogs"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Side Navigation -->
+            </div>
+            <!-- Sidebar Content -->
+        </div>
+        <!-- END Sidebar Scroll Container -->
+    </nav>
+    <!-- END Sidebar -->
+    <!-- Header -->
+    <header id="page-header">
+        <!-- Header Content -->
+        <div class="content-header">
+            <!-- Left Section -->
+            <div class="content-header-section">
+                <!-- Toggle Sidebar -->
+                <!-- Layout API, functionality initialized in Codebase() -> uiApiLayout() -->
+                <button type="button" class="btn btn-circle btn-dual-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                    <i class="fa fa-navicon"></i>
+                </button>
+                <!-- END Toggle Sidebar -->
+            </div>
+            <!-- END Left Section -->
+        </div>
+        <!-- END Header Content -->
+    </header>
+    <!-- END Header -->
+    <main id="main-container">
+        <!-- Page Content -->
+        <main>
+            <div class="content">
+                <h2 class="content-heading">Настройки</h2>
+                <div class="block">
+                    <div class="block-content block-content-full">
+                        <form>
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">e-mail</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Телефон</label>
+                                    <div class="col-md-12">
+                                        <input id="phone1" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Телефон</label>
+                                    <div class="col-md-12">
+                                        <input id="phone2" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Ссылка facebook</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Ссылка telegram</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Ссылка twitter</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Meta-description</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <label class="col-12 mt-10">Meta-keywords</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label class="col-12 mt-10">Адрес</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label class="col-12 mt-10">Google map</label>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 content">
+                                    <button class="btn btn-primary">Сохранить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- END Page Content -->
+    </main>
+</div>
+<script  src="scripts/app.js"></script>
+<script src="scripts/pages/settings.js"></script>
+</body>
+</html>
