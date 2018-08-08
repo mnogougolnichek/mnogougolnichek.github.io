@@ -22320,8 +22320,6 @@ button.bg-earth-lighter:focus {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url("xadmin/fonts/fontawesome-webfont.eot");
-  src: url("xadmin/fonts/fontawesome-webfont.eot") format("embedded-opentype"), url("xadmin/fonts/fontawesome-webfont.woff2") format("woff2"), url("xadmin/fonts/fontawesome-webfont.woff") format("woff"), url("xadmin/fonts/fontawesome-webfont.ttf") format("truetype"), url("xadmin/fonts/fontawesome-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
