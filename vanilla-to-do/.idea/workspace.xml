@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ccec611-9545-4b43-9f02-457c670f39eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,51 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="392">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="48" />
-              <folding>
-                <marker date="1533760471958" expanded="true" signature="376:577" ph="..." />
-                <marker date="1533760471958" expanded="true" signature="1129:1375" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/model.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -97,11 +66,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/controller.js" />
         <option value="$PROJECT_DIR$/scripts/model.js" />
         <option value="$PROJECT_DIR$/scripts/view.js" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -134,7 +103,12 @@
           <expand>
             <path>
               <item name="vanilla-to-do" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vanilla-to-do" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vanilla-to-do" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vanilla-to-do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vanilla-to-do" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,18 +217,18 @@
       <workItem from="1532522490096" duration="258000" />
       <workItem from="1532531593947" duration="1808000" />
       <workItem from="1532706201728" duration="1266000" />
-      <workItem from="1533753318889" duration="1847000" />
+      <workItem from="1533753318889" duration="2004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206547000" />
+    <option name="totallyTimeSpent" value="206704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -292,13 +266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -317,10 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="48" />
-          <folding>
-            <marker date="1533760471958" expanded="true" signature="376:577" ph="..." />
-            <marker date="1533760471958" expanded="true" signature="1129:1375" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,6 +291,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="188" lean-forward="true" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
     </entry>
