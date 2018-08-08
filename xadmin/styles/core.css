@@ -21513,12 +21513,6 @@ button.bg-earth-lighter:focus {
           animation-name: slideOutUp;
 }
 
-@font-face {
-  font-family: "simple-line-icons";
-  font-weight: normal;
-  font-style: normal;
-}
-
 .si {
   font-family: "simple-line-icons";
   speak: none;
@@ -22316,12 +22310,6 @@ button.bg-earth-lighter:focus {
 
 .si-pointer:before {
   content: "\E096";
-}
-
-@font-face {
-  font-family: 'FontAwesome';
-  font-weight: normal;
-  font-style: normal;
 }
 
 .fa {
