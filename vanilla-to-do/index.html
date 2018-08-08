@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="page">
+    <main>
+      <div class="container">
+        <div class="row center-lg middle-xs row-height">
+            <div class="col-xs-12 col-lg-6">
+              <h1 class="h1">Vanilla to-do list</h1>
+              <div class="js-app app-container">
+                <header class="header">
+                  <input type="text" class="js-app-input input" placeholder="Add todo">
+                </header>
+                <section class="main">
+                  <ul class="js-todo-list todo-list">
+                  </ul>
+                </section>
+                <footer class="footer">
+                    <button id="all" class="js-show-all-btn footer-btn btn active-tab">All</button>
+                    <button id="active" class="js-show-active-btn footer-btn btn">Active</button>
+                    <button id="completed" class="js-show-completed-btn footer-btn btn">Completed</button>
+                </footer>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="scripts/model.js"></script>
+  <script src="scripts/view.js"></script>
+  <script src="scripts/controller.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
