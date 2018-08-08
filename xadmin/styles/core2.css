@@ -21513,11 +21513,6 @@ button.bg-earth-lighter:focus {
           animation-name: slideOutUp;
 }
 
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-}
-
 .si {
   font-family: "simple-line-icons";
   speak: none;
@@ -22315,11 +22310,6 @@ button.bg-earth-lighter:focus {
 
 .si-pointer:before {
   content: "\E096";
-}
-
-@font-face {
-  font-weight: normal;
-  font-style: normal;
 }
 
 .fa {
@@ -25485,15 +25475,15 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 
 table.dataTable thead .sorting:after {
-  content: "\F0DC";
+  content: "";
 }
 
 table.dataTable thead .sorting_asc:after {
-  content: "\F106";
+  content: "";
 }
 
 table.dataTable thead .sorting_desc:after {
-  content: "\F107";
+  content: "";
 }
 
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
@@ -26136,9 +26126,5 @@ div.tagsinput span.tag a:hover {
 
 .note-editor .note-statusbar .note-resizebar {
   border-top-color: #ddd;
-}
-
-.error{
-  color: red;
 }
 
