@@ -12,8 +12,8 @@ function Model(app) {
             'вельможей'
         ],
         url: [
-            'images/ebichu.gif',
             'images/cucrick.gif',
+            'images/ebichu.gif',
             'images/nobleman.gif'
         ]
     }
