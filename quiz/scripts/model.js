@@ -7,8 +7,8 @@ function Model(app) {
     this.count = -1;
     this.results = {
         text: [
-            'хомячком',
             'овощем',
+            'хомячком',
             'вельможей'
         ],
         url: [
