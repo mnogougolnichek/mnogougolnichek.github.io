@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091b951d-ceb0-4131-8097-5b5c1356ffff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/core.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="3" />
+          <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,6 +67,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="3" />
+          <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -137,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="176" column="160" selection-start-line="176" selection-start-column="160" selection-end-line="176" selection-end-column="160" />
+              <caret line="176" column="175" selection-start-line="176" selection-start-column="175" selection-end-line="176" selection-end-column="175" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -152,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/core.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135286">
-              <caret line="7958" column="19" selection-start-line="7958" selection-start-column="19" selection-end-line="7958" selection-end-column="19" />
+            <state relative-caret-position="347">
+              <caret line="14583" column="12" selection-start-line="14583" selection-start-column="12" selection-end-line="14583" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -210,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/core.css" />
         <option value="$PROJECT_DIR$/scripts/authorization.js" />
         <option value="$PROJECT_DIR$/pages/category.html" />
         <option value="$PROJECT_DIR$/pages/users.html" />
@@ -230,6 +231,7 @@
         <option value="$PROJECT_DIR$/scripts/pages/orders.js" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
         <option value="$PROJECT_DIR$/users.html" />
+        <option value="$PROJECT_DIR$/styles/core.css" />
       </list>
     </option>
   </component>
@@ -291,7 +293,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/proj/pogreb-website" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
@@ -360,12 +362,12 @@
       <workItem from="1533656102589" duration="1618000" />
       <workItem from="1533659263867" duration="5681000" />
       <workItem from="1533665982379" duration="6835000" />
-      <workItem from="1533725125054" duration="2255000" />
+      <workItem from="1533725125054" duration="2975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24235000" />
+    <option name="totallyTimeSpent" value="24955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -557,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/core.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135286">
-          <caret line="7958" column="19" selection-start-line="7958" selection-start-column="19" selection-end-line="7958" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/pages/orders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1362788">
@@ -578,16 +573,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/users.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="176" column="160" selection-start-line="176" selection-start-column="160" selection-end-line="176" selection-end-column="160" />
+          <caret line="176" column="175" selection-start-line="176" selection-start-column="175" selection-end-line="176" selection-end-column="175" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="14583" column="12" selection-start-line="14583" selection-start-column="12" selection-end-line="14583" selection-end-column="12" />
         </state>
       </provider>
     </entry>

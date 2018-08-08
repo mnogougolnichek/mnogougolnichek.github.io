@@ -14581,7 +14581,7 @@ a.btn-block-option:focus,
 }
 
 .nav-main a.nav-submenu::after {
-  content: '\F103';
+  content: 'F103';
   opacity: 0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
