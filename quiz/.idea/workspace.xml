@@ -22,6 +22,7 @@
     <session id="397505804">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -67,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/model.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -94,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="-84">
               <caret line="35" column="36" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <marker date="1533399400372" expanded="true" signature="239:348" ph="..." />
@@ -322,12 +323,12 @@
       <workItem from="1533388677084" duration="11657000" />
       <workItem from="1533467874575" duration="3285000" />
       <workItem from="1533738029462" duration="293000" />
-      <workItem from="1533738662762" duration="45000" />
+      <workItem from="1533738662762" duration="215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359591000" />
+    <option name="totallyTimeSpent" value="359761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -391,23 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="36" />
-          <folding>
-            <marker date="1533399400372" expanded="true" signature="239:348" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="496:1192" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="600:693" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="750:1169" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="1319:1719" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="1366:1414" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="1366:1415" ph="..." />
-            <marker date="1533399400372" expanded="true" signature="1366:1524" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/gamepage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1862">
@@ -426,6 +410,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <marker date="1533399400372" expanded="true" signature="239:348" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="496:1192" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="600:693" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="750:1169" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="1319:1719" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="1366:1414" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="1366:1415" ph="..." />
+            <marker date="1533399400372" expanded="true" signature="1366:1524" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

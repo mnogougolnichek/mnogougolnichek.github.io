@@ -1,0 +1,69 @@
+.page {
+  overflow-x: hidden;
+  color: #6D6D6D;
+  font-family: 'Sunflower', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+}
+
+h1{
+  margin: 30px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.c-tabs{
+  width: 100%;
+  margin-top: 35px;
+}
+
+.c-tabs__btns{
+  border-bottom: solid 1px #eaeaea;
+  text-align: left;
+}
+
+.c-tabs__btns > li{
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: solid 1px transparent;
+  border-top: solid 3px transparent;
+  margin-bottom: -1px;
+  color: #cecece;
+}
+
+.c-tabs__btns > .active{
+  display: inline-block;
+  border-left: solid 1px #eaeaea;
+  border-right: solid 1px #eaeaea;
+  border-top: solid 3px rgb(255, 212, 0);
+  border-bottom: solid 1px #fff;
+  color: #6D6D6D;
+}
+
+.c-tabs--green > .c-tabs__btns > .active{
+  border-top: solid 3px rgb(28, 175, 0);
+}
+
+.c-tabs--red > .c-tabs__btns > .active{
+  border-top: solid 3px rgb(255, 5, 0);
+}
+
+.c-tabs__panes > * {
+  display: none;
+  text-align: left;
+  padding: 20px;
+  border: solid 1px #eaeaea;
+  border-top: none;
+}
+
+.c-tabs__panes > .active {
+  display: block;
+}
