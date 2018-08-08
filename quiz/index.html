@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="favicon.ico" type="image/icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+  <link rel="stylesheet" href="styles/gamepage.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header class="l-header">
+      <div class="c-header">
+        <div class="c-header__menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <div class="c-header__logo"></div>
+        <div></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="l-intro">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-xs-12 col-sm-10 col-lg-8">
+              <h1 class="h1">Тест: кем Вы были в прошлой жизни?</h1>
+            </div>
+          </div>
+          <div class="row center-xs">
+            <div class="col-xs-12 col-sm-10 col-lg-10">
+              <div class="description">
+                <p>
+                  Восточные религии и традиции, такие как различные направления индуизма и буддизма считают,
+                  что после смерти одного тела жизнь продолжается в новом. Согласно индуистским представлениям,
+                  душа переселяется в другое тело. Этот тест поможет узнать в каком теле жила Ваша душа в прошлый раз.
+                </p>
+                <a class="description__anchor" href="#bottom"><i class="pulse fas fa-arrow-alt-circle-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-game">
+        <div class="container">
+          <div class="row center-xs">
+            <div class="col-xs-12">
+              <div class="game js-game">
+              </div>
+              <a name="bottom"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+            <!-- Divs with column-classes here -->
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="scripts/controller.js"></script>
+  <script src="scripts/model.js"></script>
+  <script src="scripts/view.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+
+

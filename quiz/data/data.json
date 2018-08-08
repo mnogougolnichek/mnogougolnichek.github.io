@@ -1,0 +1,114 @@
+[
+  {
+    "url":"images/callbackhell2.jpg",
+    "question":"Любите ли вы javascript?",
+    "answer":[
+      {
+        "var":"Обожаю",
+        "points": 0
+      },
+      {
+        "var":"Нормальный язык",
+        "points": 1
+      },
+      {
+        "var":"Это мой ночной кашмар",
+        "points": 2
+      },
+      {
+        "var":"Что это?",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "url":"images/super.jpg",
+    "question":"Что вам ближе?",
+    "answer":[
+      {
+        "var":"Рик и морти",
+        "points": 0
+      },
+      {
+        "var":"Робоцып",
+        "points": 1
+      },
+      {
+        "var":"Супер тюрьма",
+        "points": 2
+      },
+      {
+        "var":"Смешарики",
+        "points": 3
+      }
+
+    ]
+  },
+  {
+    "url":"images/cucumber.jpg",
+    "question":"Любимая еда",
+    "answer":[
+      {
+        "var":"Пицца",
+        "points": 0
+      },
+      {
+        "var":"Ролтон",
+        "points": 1
+      },
+      {
+        "var":"Я фрукторианец",
+        "points": 2
+      },
+      {
+        "var":"Я солнцеед",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "url":"images/BoratKazakhstan.jpg",
+    "question":"Куда бы вы поехали в отпуск?",
+    "answer":[
+      {
+        "var":"Египет",
+        "points": 0
+      },
+      {
+        "var":"Казахстан",
+        "points": 1
+      },
+      {
+        "var":"Бердянск",
+        "points": 2
+      },
+      {
+        "var":"Норильск",
+        "points": 3
+      }
+    ]
+  },
+  {
+    "url":"images/vuepic.png",
+    "question":"Что лучше?",
+    "answer":[
+      {
+        "var":"Vue",
+        "points": 0
+      },
+      {
+        "var":"React",
+        "points": 1
+      },
+      {
+        "var":"Angular",
+        "points": 2
+      },
+      {
+        "var":"Vanilla",
+        "points": 3
+      }
+    ]
+  }
+]
+
