@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ccec611-9545-4b43-9f02-457c670f39eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todovuemy/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todovuemy/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todovuemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todovuemy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xadmin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xadmin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xadmin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xadmin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xadmin/.idea/xadmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/mnogougolnichek.github.io.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +22,7 @@
     <session id="450045619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -90,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -221,16 +228,15 @@
       <workItem from="1532522490096" duration="258000" />
       <workItem from="1532531593947" duration="1808000" />
       <workItem from="1532706201728" duration="1266000" />
-      <workItem from="1533753318889" duration="4463000" />
+      <workItem from="1533753318889" duration="4988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209163000" />
+    <option name="totallyTimeSpent" value="209688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" weight="0.25" />

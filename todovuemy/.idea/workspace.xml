@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5ee54e7-6218-4a24-a99b-83c0f6562128" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vanilla-to-do/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vanilla-to-do/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vanilla-to-do/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../vanilla-to-do/scripts/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
     <session id="-2071455553">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -177,12 +176,12 @@
       <workItem from="1511568416154" duration="74408000" />
       <workItem from="1512750250963" duration="101000" />
       <workItem from="1513885430757" duration="2438000" />
-      <workItem from="1533917444053" duration="65000" />
+      <workItem from="1533917444053" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171028000" />
+    <option name="totallyTimeSpent" value="171628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
