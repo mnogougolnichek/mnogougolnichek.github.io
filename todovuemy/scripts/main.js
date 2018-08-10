@@ -1,21 +1,21 @@
 "use strict";
 
-let STORAGE_KEY = 'myVueTodo'
+let STORAGE_KEY = 'myVueTodo';
 
 let todoStorage = {
     fetch: function () {
-        let todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+        let todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
         todos.forEach(function (todo, index) {
             todo.id = index
-        })
-        todoStorage.uid = todos.length
+        });
+        todoStorage.uid = todos.length;
         return todos
 
     },
     save: function (todos) {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
     }
-}
+};
 
 let app6 = new Vue({
     el: '#app-6',
@@ -45,7 +45,7 @@ let app6 = new Vue({
                 text:this.message,
                 id: todoStorage.uid++,
                 //completed: false
-            })
+            });
             this.message= ""
         },
         deleteTodo (todo) {
@@ -71,5 +71,5 @@ let app6 = new Vue({
         },
     }
 
-})
+});
 

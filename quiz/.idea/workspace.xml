@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e9ebb60-3a4a-417a-8396-78cccabd2b45" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../vanilla-to-do/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vanilla-to-do/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3e9ebb60-3a4a-417a-8396-78cccabd2b45" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
     <session id="397505804">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
