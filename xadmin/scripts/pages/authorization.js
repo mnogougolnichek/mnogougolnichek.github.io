@@ -45,3 +45,7 @@ let v = $("#authorization").validate({
         }
     }
 });
+
+$( document ).ready(function() {
+    $('.alert').alert();
+});
