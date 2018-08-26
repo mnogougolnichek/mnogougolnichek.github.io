@@ -1,0 +1,28 @@
+{
+  "name": "reacttodo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-stage-0": "^7.0.0-rc.1",
+    "flexboxgrid": "^6.3.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "reset-css": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gh-pages": "^1.2.0"
+  },
+  "homepage": "http://mnogougolnichek.github.io/reacttodo"
+}

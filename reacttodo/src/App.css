@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+.complete{
+  text-decoration: line-through;
+  color: #d9d9d9;
+}
+
+.hidden{
+  display: none;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4d4d4d;
+}
+
+.page {
+  overflow-x: hidden;
+  height: 100vh;
+  background: #f1f1f1;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+.h1{
+  font-size: 60px;
+  color: #9c979b;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.app-container {
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 30px -10px rgba(0,0,0,.3);
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,.3);
+}
+
+.header, .main, .footer{
+  width: 100%;
+}
+
+.header{
+  padding: 20px 20px 10px 20px;
+}
+
+.main{
+  padding: 0 20px 10px 20px;
+}
+
+.footer{
+  padding:  15px;
+  background: #716e70;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+  color: #d9d9d9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+input[type="search"]::-moz-placeholder {
+  color: #d9d9d9;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.input{
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 35px;
+  color: #4d4d4d;
+}
+
+.todo-list{
+
+}
+
+.todo{
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  word-break: break-all;
+}
+
+.todo+.todo{
+  border-top: #ebebeb solid 1px;
+}
+
+.todo span{
+  width: 100%;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 40px;
+  padding-right: 10px;
+
+}
+
+.hidden{
+  display: none;
+}
+
+.todo-checkbox{
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.todo-checkbox::before{
+  content: "";
+  background: url('./img/default.png') no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto auto 0;
+}
+
+.todo-checkbox:checked::before{
+  background: url('./img/checked.png') no-repeat;
+  background-size: contain;
+}
+
+.btn{
+  border: none;
+  background: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer;
+}
+
+.active-tab{
+  border-bottom: #fff 3px solid;
+}
+
+.footer-btn{
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.del-btn{
+  opacity: 0;
+  background: url('./img/destroy.png') no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.todo:hover .del-btn{
+  opacity: 1;
+}
+
+.row-height{
+  height: 100vh;
+}
+
