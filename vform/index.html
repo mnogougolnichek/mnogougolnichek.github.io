@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <form class="registration" id="form">
+              <h1>Sign up</h1>
+              <div class="error_box"></div>
+              <label for="username">
+                <span>Username</span>
+                <input type="text" id="username">
+              </label>
+              <label for="e-mail">
+                <span>E-mail</span>
+                <input type="text" id="e-mail">
+              </label>
+              <label for="password">
+                <span>Password</span>
+                <input type="password" id="password">
+              </label>
+              <label for="password_repeat">
+                <span>Repeat Password</span>
+                <input type="password" id="password_repeat">
+              </label>
+              <br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+  <script src="scripts/validate.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
