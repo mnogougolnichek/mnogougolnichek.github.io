@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="icon" href="favicon.ico" type="image/icon">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <title>Form validation</title>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/flexboxgrid.min.css">
   <link rel="stylesheet" href="styles/main.css">
@@ -15,298 +12,35 @@
 
   <div class="page">
 
-    <header class="header">
-      <a id="header"></a>
-        <div class="l-header">
-          <h1 class="h1">Hello, I`m <span class="h1__name">Katheryna Martynova</span>.<br>
-            I`m front end developer.
-          </h1>
-          <a class="header__anchor" href="#main">View my work<i class="fas fa-arrow-right turn-over"></i></a>
-        </div>
-      <a id="main">&nbsp;</a>
-    </header>
-
-    <main class="main">
-
-      <h2 class="h2">PROJECTS</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">React table</div>
-                  <div class="card__project-description">React</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/datatable" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/datatable/" class="card__link" title="View web page">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/reacttable.jpg" alt="">
-            </div>
+    <main>
+          <div class="container">
+            <form class="registration" id="form">
+              <h1>Sign up</h1>
+              <div class="error_box"></div>
+              <label for="username">
+                <span>Username</span>
+                <input type="text" id="username">
+              </label>
+              <label for="e-mail">
+                <span>E-mail</span>
+                <input type="text" id="e-mail">
+              </label>
+              <label for="password">
+                <span>Password</span>
+                <input type="password" id="password">
+              </label>
+              <label for="password_repeat">
+                <span>Repeat Password</span>
+                <input type="password" id="password_repeat">
+              </label>
+              <br>
+              <input type="submit" value="Submit">
+            </form>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">To-do list</div>
-                  <div class="card__project-description">Vanilla js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/mnogougolnichek.github.io/tree/master/vanilla-to-do" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/vanilla-to-do/" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/vtodo.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Quiz</div>
-                  <div class="card__project-description">Vanilla js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/mnogougolnichek.github.io/tree/master/quiz" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/quiz/" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/quiz.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">React to-do</div>
-                  <div class="card__project-description">React</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/reacttodo" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/reacttodo" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/reacttodo.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Nested tabs</div>
-                  <div class="card__project-description">Vanilla js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/mnogougolnichek.github.io/tree/master/nested_tabs_my" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/nested_tabs_my/" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/tabs.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Vue to-do</div>
-                  <div class="card__project-description">Vue.js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://github.com/mnogougolnichek/mnogougolnichek.github.io/tree/master/todovuemy" class="card__link">
-                    <i class="fas fa-code"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                  <a href="https://mnogougolnichek.github.io/todovuemy/index.html" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/vuetodo.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Form</div>
-                  <div class="card__project-description">Vanilla js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://mnogougolnichek.github.io/vform/" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/vform.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">CDS</div>
-                  <div class="card__project-description">HTML, CSS, js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://mnogougolnichek.github.io/CDS_/index.html" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/cds.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Eventro</div>
-                  <div class="card__project-description">HTML, CSS, js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://mnogougolnichek.github.io/Eventro1/index.html" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/eventro.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Arkenea</div>
-                  <div class="card__project-description">HTML, CSS, js</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://mnogougolnichek.github.io/arkeneaproj/index.html" class="card__link">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/arkenea.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card">
-              <div class="card__shadow">
-                <div class="l-card__project-description slide-down">
-                  <div class="card__project-name">Admin</div>
-                  <div class="card__project-description">JQuery</div>
-                </div>
-                <div class="card__link-container slide-up">
-                  <a href="https://mnogougolnichek.github.io/xadmin/" class="card__link" title="View web page">
-                    <i class="fas fa-eye"></i>
-                    <span class="card__animated-icon rotate">
-                      <i class="fas fa-circle-notch"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <img class="card__img" src="images/admin.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
 
-    <footer class="footer">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <a href="#header" class="footer__link footer__anchor"><i class="fas fa-chevron-up"></i></a>
-          </div>
-          <div class="col-xs-12">
-            <div class="footer__social-link-container">
-              <a href="https://www.linkedin.com/in/katheryna-martynova-5336b8149/" class="footer__link"><i class="fab fa-linkedin-in animate-footer-icon"></i></a>
-              <a href="https://t.me/HexagonalCat" class="footer__link"><i class="fab fa-telegram-plane animate-footer-icon"></i></a>
-              <a href="https://www.instagram.com/43a43044244f/" class="footer__link"><i class="fab fa-instagram animate-footer-icon"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="row center-xs">
-          <div class="col-xs-12 col-sm-12">
-            <div class="footer__email">
-              <i class="far fa-envelope"></i><span>mnogougolnichek@gmail.com</span>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </footer>
-
   </div>
-
+  <script src="scripts/validate.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
