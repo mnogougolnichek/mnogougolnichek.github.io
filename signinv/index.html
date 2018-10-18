@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="page">
+        <main>
+            <div class="container">
+                <div class="c-info">
+                    <div class="c-info__content">
+                        <div class="logo">
+                            <img class="logo__img" src="images/star.svg" alt="">
+                            <span class="logo__name">Technologies</span>
+                        </div>
+                        <div class="c-info__description">
+                            Get how-to help and instructions or specific features in
+                        </div>
+                        <div class="c-info__button-container">
+                            <button class="button c-info__button">Help center</button>
+                            <span>or</span>
+                            <button class="button c-info__button">Support</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-form">
+                    <form id="sign-in" class="form">
+                        <h1 class="h1">
+                            Welcome back
+                            <span class="h1__subtitle">Sign in to company name account.</span>
+                        </h1>
+                        <label for="email">
+                            <span id="emailTooltip"></span>
+                            <span id="emailTitle" class="form__title">Your e-mail</span>
+                            <input class="form__input" type="text" name="email" id="email" required>
+                        </label>
+                        <label for="password">
+                            <span id="passwordTooltip"></span>
+                            <span id="passwordTitle" class="form__title">Password</span>
+                            <input class="form__input" type="password" id="password" required>
+                        </label>
+                        <button id="submitButton" class="button c-form__button" type="button">
+                            LOG IN
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <div class="form__password-reset">
+                            Forgot your password?
+                            <a href="" id="passwordResetLink" class="form__password-reset-link">&nbsp;Reset</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+  <script src="scripts/validate.js"></script>
+  <script src="scripts/logInSuccess.js"></script>
+  <script src="scripts/passwordReset.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
