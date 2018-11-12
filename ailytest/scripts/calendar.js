@@ -49,10 +49,10 @@ Calendar.prototype.showEventsTemplate = function (event) {
 Calendar.prototype.eventTemplate = function (options) {
     let {event, date, members, description} = options;
     return `<form class="set-data-form">
-            <input class="set-data-form__input" name="event" type="text" value="${event?event:""}">
+            <input class="set-data-form__input" name="event" type="text" placeholder="Событие" value="${event?event:""}">
             <input class="set-data-form__input" name="date" type="text" value="${date}">
-            <input class="set-data-form__input" name="members" type="text" value="${members?members:""}">
-            <textarea name="description" name="" id="" cols="30" rows="10">
+            <input class="set-data-form__input" name="members" type="text" placeholder="Имена участников" value="${members?members:""}">
+            <textarea name="description" name="" id="" cols="30" rows="10" placeholder="Описание">
             ${description?description:""}
             </textarea>
             <button class="btn-edit-data">Готово</button>
