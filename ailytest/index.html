@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/calendar.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <main>
+      <div class="js-calendar calendar">
+        <header class="calendar__header">
+          <button class="calendar__update-btn">Обновить</button>
+          <div>
+            <span class="calendar__search-icon"></span>
+            <input class="calendar__search" type="text" placeholder="Событие, дата или участник">
+          </div>
+          <ul class="calendar__search-result"></ul>
+        </header>
+        <section class="calendar__main">
+          <div class="date">
+            <button class="date__prev date-btn"></button>
+            <div class="date__text-container">
+              <span class="date__month"></span>
+              <span class="date__year"></span>
+            </div>
+            <button class="date__next date-btn"></button>
+            <span class="date__isToday"></span>
+          </div>
+          <div class="calendar__week">
+            <div class="calendar__week-day">Пн</div>
+            <div class="calendar__week-day">Вт</div>
+            <div class="calendar__week-day">Ср</div>
+            <div class="calendar__week-day">Чт</div>
+            <div class="calendar__week-day">Пт</div>
+            <div class="calendar__week-day">Сб</div>
+            <div class="calendar__week-day">Вс</div>
+          </div>
+          <div class="set-event"></div>
+          <div class="calendar__days-container">
+          </div>
+        </section>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="scripts/resize.js"></script>
+  <script src="scripts/calendar.js"></script>
+  <script src="scripts/controller.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
