@@ -35,7 +35,7 @@ SearchMovie.prototype.renderList = function () {
     this.list.innerHTML ="";
     this.movieDetails.innerHTML = "";
     for(let i = 0; i < this.data.length; i++){
-        let url = this.data[i].show.image? this.data[i].show.image.medium: "images/placeholder.jpg",
+        let url = this.data[i].show.image? this.data[i].show.image.medium: "https://mnogougolnichek.github.io/gtest/images/placeholder.jpg",
             premiere = this.data[i].show.premiered?  this.data[i].show.premiered.substring(0,4): "Unknown";
         this.list.innerHTML += this.listItemTmpl(this.data[i].show.id, url, this.data[i].show.name, premiere);
     }
