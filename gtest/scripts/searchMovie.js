@@ -27,7 +27,6 @@ SearchMovie.prototype.getData = function (value) {
         .then(response => {
             this.data = response;
             this.renderList();
-            console.log(response);
         });
 };
 
@@ -53,7 +52,6 @@ SearchMovie.prototype.search = function () {
 SearchMovie.prototype.renderDetails = function (id) {
     this.list.innerHTML ="";
     for(let i = 0; i < this.data.length; i++){
-        console.log(this.data[i].show.id, id);
         if(this.data[i].show.id === id){
             this.movieDetails.innerHTML = this.movieDetailsTmpl(this.data[i]);
         }
