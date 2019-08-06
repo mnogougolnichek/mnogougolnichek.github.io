@@ -36,15 +36,18 @@ Controller.prototype.follow = function(){
 
             });
             if(event.target.classList.contains("btn-edit-data")){
-                event.preventDefault();
-                console.log("add data");
                 let form = calendar.app.querySelector(".set-data-form");
-                calendar.setAppData({
-                    event: form.event.value,
-                    date: form.date.value,
-                    members: form.members.value,
-                    description: form.description.value
-                });
+                event.preventDefault();
+                if(form.event.value !== ""){
+                    calendar.setAppData({
+                        event: form.event.value,
+                        date: form.date.value,
+                        members: form.members.value,
+                        description: form.description.value
+                    });
+                }else{
+                    form.event.style.background = "rgba(255,0,0,0.5)";
+                }
             }
             if(event.target.classList.contains("btn-remove-data")){
                 event.preventDefault();
